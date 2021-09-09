@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family:'open sans;';
+	text-align: center;
+	font-size: 2em;
+}
+.Contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	font-size: 2em;
+
+}
+header{
+	width: 100%;
+	height: 800px;
+	background: #403A3E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(8903,25%,10%,0.647), hsla(317,25%,12%,0.664)),url(../img/piramide.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(8903,25%,10%,0.647), hsla(317,25%,12%,0.664)),url(../img/piramide.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+
+}
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+col{
+	color: white;
+	font-size: .2em;
+	text-align: center;
+}
+small{
+	color: white;
+	font-size: .5em;
+	text-align: center;
+}
